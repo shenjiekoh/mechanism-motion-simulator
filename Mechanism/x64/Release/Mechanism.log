@@ -1,0 +1,82 @@
+﻿  DrawFourBar.cpp
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawFourBar.h(36,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+  DrawSixBar.cpp
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawSixBar.h(36,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+  DrawSliderCrank.cpp
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawSliderCrank.h(37,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+  FourBarWindow.cpp
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawFourBar.h(36,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+  HelpWindow1.cpp
+  HelpWindow2.cpp
+  MainWindow.cpp
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawFourBar.h(36,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawSliderCrank.h(37,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawSixBar.h(36,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+  Mechanism.cpp
+  SixBarWindow.cpp
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawSixBar.h(36,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+  SliderCrankWindow.cpp
+D:\大四\物件導向程式設計及應用\Final\Final\Mechanism\DrawSliderCrank.h(37,1): warning C4312: 'type cast': conversion from 'int' to 'HWND' of greater size
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  DrawFourBar.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+SliderCrankWindow.obj : error LNK2028: unresolved token (0A00040E) "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z) referenced in function "public: __clrcall Mechanism::DrawSliderCrank::DrawSliderCrank(class SliderCrank &)" (??0DrawSliderCrank@Mechanism@@$$FQE$AAM@AEAVSliderCrank@@@Z)
+SixBarWindow.obj : error LNK2028: unresolved token (0A00006F) "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z) referenced in function "private: void __clrcall Mechanism::DrawSixBar::InitializeComponent(void)" (?InitializeComponent@DrawSixBar@Mechanism@@$$FAE$AAMXXZ)
+MainWindow.obj : error LNK2020: unresolved token (0A000414) "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+FourBarWindow.obj : error LNK2020: unresolved token (0A000072) "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+DrawSliderCrank.obj : error LNK2028: unresolved token (0A00040D) "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z) referenced in function "public: __clrcall Mechanism::DrawSliderCrank::DrawSliderCrank(class SliderCrank &)" (??0DrawSliderCrank@Mechanism@@$$FQE$AAM@AEAVSliderCrank@@@Z)
+DrawSixBar.obj : error LNK2028: unresolved token (0A00006F) "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z) referenced in function "public: __clrcall Mechanism::DrawSixBar::DrawSixBar(class SixBar &)" (??0DrawSixBar@Mechanism@@$$FQE$AAM@AEAVSixBar@@@Z)
+DrawFourBar.obj : error LNK2028: unresolved token (0A000072) "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z) referenced in function "public: __clrcall Mechanism::DrawFourBar::DrawFourBar(class FourBar &,double)" (??0DrawFourBar@Mechanism@@$$FQE$AAM@AEAVFourBar@@N@Z)
+SliderCrankWindow.obj : error LNK2020: unresolved token (0A0004BF) "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+SixBarWindow.obj : error LNK2028: unresolved token (0A0000CD) "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "private: void __clrcall Mechanism::DrawSixBar::InitializeComponent(void)" (?InitializeComponent@DrawSixBar@Mechanism@@$$FAE$AAMXXZ)
+MainWindow.obj : error LNK2020: unresolved token (0A0004CB) "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+FourBarWindow.obj : error LNK2020: unresolved token (0A0000D6) "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawSliderCrank.obj : error LNK2028: unresolved token (0A0004BE) "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __clrcall Mechanism::DrawSliderCrank::DrawSliderCrank(class SliderCrank &)" (??0DrawSliderCrank@Mechanism@@$$FQE$AAM@AEAVSliderCrank@@@Z)
+DrawSixBar.obj : error LNK2028: unresolved token (0A0000CD) "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __clrcall Mechanism::DrawSixBar::DrawSixBar(class SixBar &)" (??0DrawSixBar@Mechanism@@$$FQE$AAM@AEAVSixBar@@@Z)
+DrawFourBar.obj : error LNK2028: unresolved token (0A0000D6) "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __clrcall Mechanism::DrawFourBar::DrawFourBar(class FourBar &,double)" (??0DrawFourBar@Mechanism@@$$FQE$AAM@AEAVFourBar@@N@Z)
+SliderCrankWindow.obj : error LNK2020: unresolved token (0A00059D) "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+SixBarWindow.obj : error LNK2020: unresolved token (0A00015A) "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+MainWindow.obj : error LNK2028: unresolved token (0A0005BA) "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z) referenced in function "private: void __clrcall Mechanism::HelpWindow1::InitializeComponent(void)" (?InitializeComponent@HelpWindow1@Mechanism@@$$FAE$AAMXXZ)
+FourBarWindow.obj : error LNK2020: unresolved token (0A00016B) "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+DrawSliderCrank.obj : error LNK2020: unresolved token (0A00057B) "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+DrawSixBar.obj : error LNK2028: unresolved token (0A00013B) "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z) referenced in function "private: void __clrcall Mechanism::DrawSixBar::InitializeComponent(void)" (?InitializeComponent@DrawSixBar@Mechanism@@$$FAE$AAMXXZ)
+DrawFourBar.obj : error LNK2028: unresolved token (0A00014C) "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z) referenced in function "private: void __clrcall Mechanism::DrawFourBar::timer1_Tick(class System::Object ^,class System::EventArgs ^)" (?timer1_Tick@DrawFourBar@Mechanism@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+SliderCrankWindow.obj : error LNK2028: unresolved token (0A0005BA) "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __clrcall Mechanism::DrawSliderCrank::DrawSliderCrank(class SliderCrank &)" (??0DrawSliderCrank@Mechanism@@$$FQE$AAM@AEAVSliderCrank@@@Z)
+SixBarWindow.obj : error LNK2028: unresolved token (0A000168) "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "private: void __clrcall Mechanism::DrawSixBar::InitializeComponent(void)" (?InitializeComponent@DrawSixBar@Mechanism@@$$FAE$AAMXXZ)
+MainWindow.obj : error LNK2028: unresolved token (0A0005D7) "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __cdecl std::exception::exception(class std::exception const &)" (??0exception@std@@$$FQEAA@AEBV01@@Z)
+FourBarWindow.obj : error LNK2020: unresolved token (0A000179) "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawSliderCrank.obj : error LNK2028: unresolved token (0A000598) "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __clrcall Mechanism::DrawSliderCrank::DrawSliderCrank(class SliderCrank &)" (??0DrawSliderCrank@Mechanism@@$$FQE$AAM@AEAVSliderCrank@@@Z)
+DrawSixBar.obj : error LNK2028: unresolved token (0A000149) "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __clrcall Mechanism::DrawSixBar::DrawSixBar(class SixBar &)" (??0DrawSixBar@Mechanism@@$$FQE$AAM@AEAVSixBar@@@Z)
+DrawFourBar.obj : error LNK2028: unresolved token (0A00015A) "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __clrcall Mechanism::DrawFourBar::DrawFourBar(class FourBar &,double)" (??0DrawFourBar@Mechanism@@$$FQE$AAM@AEAVFourBar@@N@Z)
+MainWindow.obj : error LNK2019: unresolved external symbol "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z) referenced in function "private: void __clrcall Mechanism::HelpWindow1::InitializeComponent(void)" (?InitializeComponent@HelpWindow1@Mechanism@@$$FAE$AAMXXZ)
+SixBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+SliderCrankWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+DrawFourBar.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+DrawSixBar.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+DrawSliderCrank.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+FourBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SwapBuffers(struct HDC__ *)" (?SwapBuffers@@$$J0YAHPEAUHDC__@@@Z)
+MainWindow.obj : error LNK2001: unresolved external symbol "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+SixBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+SliderCrankWindow.obj : error LNK2001: unresolved external symbol "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+DrawFourBar.obj : error LNK2001: unresolved external symbol "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+DrawSixBar.obj : error LNK2001: unresolved external symbol "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+DrawSliderCrank.obj : error LNK2001: unresolved external symbol "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+FourBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" struct HDC__ * __cdecl GetDC(struct HWND__ *)" (?GetDC@@$$J0YAPEAUHDC__@@PEAUHWND__@@@Z)
+MainWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+SixBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+SliderCrankWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawFourBar.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawSixBar.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawSliderCrank.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+FourBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl ChoosePixelFormat(struct HDC__ *,struct tagPIXELFORMATDESCRIPTOR const *)" (?ChoosePixelFormat@@$$J0YAHPEAUHDC__@@PEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+MainWindow.obj : error LNK2019: unresolved external symbol "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z) referenced in function "public: __cdecl std::exception::exception(class std::exception const &)" (??0exception@std@@$$FQEAA@AEBV01@@Z)
+SixBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+SliderCrankWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawFourBar.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawSixBar.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+DrawSliderCrank.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+FourBarWindow.obj : error LNK2001: unresolved external symbol "extern "C" int __cdecl SetPixelFormat(struct HDC__ *,int,struct tagPIXELFORMATDESCRIPTOR const *)" (?SetPixelFormat@@$$J0YAHPEAUHDC__@@HPEBUtagPIXELFORMATDESCRIPTOR@@@Z)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\lib\x64\glu32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\lib\x64\glaux.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\??\???????????\Final\Final\x64\Release\Mechanism.exe : fatal error LNK1120: 32 unresolved externals

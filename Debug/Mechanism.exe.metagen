@@ -1,0 +1,51 @@
+  Mechanism.DrawFourBar.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.DrawSixBar.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.DrawSliderCrank.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.FourBarWindow.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.HelpWindow1.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.HelpWindow2.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.MainWindow.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.SixBarWindow.resources - Embedded, ContainedInManifestFile, 
+  Mechanism.SliderCrankWindow.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Mechanism, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Mechanism.DrawFourBar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(FourBar*, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.DrawSixBar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(SixBar*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.DrawSliderCrank: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(SliderCrank*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.HelpWindow1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.FourBarWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.HelpWindow2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.SliderCrankWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.SixBarWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Mechanism.MainWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
